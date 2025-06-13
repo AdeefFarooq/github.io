@@ -6,7 +6,12 @@
   color: white;
   text-decoration: none;
   border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
 }
 .btn:hover {
   background-color: #005fa3;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
 }

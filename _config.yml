@@ -2,5 +2,11 @@ title: Adeel Farooq
 description: Personal academic site
 theme: minima
 author: Adeel Farooq
+email: your.email@domain.com
 plugins:
   - jekyll-seo-tag
+google_analytics: UA-XXXXXXXXX-X
+
+# Custom head includes
+include:
+  - assets/css/custom.css
