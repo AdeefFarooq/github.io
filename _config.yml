@@ -1,0 +1,6 @@
+title: Adeel Farooq
+description: Personal academic site
+theme: minima
+author: Adeel Farooq
+plugins:
+  - jekyll-seo-tag
