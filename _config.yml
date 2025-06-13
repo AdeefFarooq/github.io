@@ -1,12 +1,44 @@
-title: Adeel Farooq
-description: Personal academic site
-theme: minima
-author: Adeel Farooq
+title: "Adeel Farooq"
 email: your.email@domain.com
-plugins:
-  - jekyll-seo-tag
-google_analytics: UA-XXXXXXXXX-X
+description: >-
+  Postdoctoral Researcher in Microbial Genomics, AMR, and Bioinformatics.
+baseurl: ""
+url: "https://adeeffarooq.github.io"
+theme: minimal-mistakes-jekyll
 
-# Custom head includes
-include:
-  - assets/css/custom.css
+author:
+  name   : "Adeel Farooq"
+  avatar : "/assets/images/profile.jpg"
+  bio    : "Postdoc | Microbial Genomics | AMR | Fermentation Bioinformatics"
+  location: "Guelph, Canada"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/AdeefFarooq"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/"
+    - label: "ResearchGate"
+      icon: "ai ai-researchgate"
+      url: "https://www.researchgate.net/"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
