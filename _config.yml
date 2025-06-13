@@ -4,7 +4,7 @@ description: >-
   Postdoctoral Researcher in Microbial Genomics, AMR, and Bioinformatics.
 baseurl: ""
 url: "https://adeeffarooq.github.io"
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 author:
   name   : "Adeel Farooq"
